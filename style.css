@@ -1,3 +1,26 @@
 body{
-    background-color: indigo
+    background-color: lavender
 }
+
+.nav-link{
+    font-weight: lighter;
+}
+
+.nav-link:hover{
+    font-weight:bolder;
+    background-color: #eee;
+}
+header{
+    height:600px;
+    width:100%;
+    background-image:url("Bora Bora");
+    background-size:cover;
+    text-align:center;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+header p{
+    font-style:italic;
+}
+
