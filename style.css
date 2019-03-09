@@ -17,10 +17,30 @@ header{
     background-size:cover;
     text-align:center;
     font-family: 'Playfair Display', serif;
+    color: #fff;
+}
+.aboutus {
+    text-align: center;
     
 }
 
-header p{
-    font-style:italic;
+.aboutus i{
+    font-size: 30px;
+    padding: 25px 20px;
+    
+    /*change the color*/
+    color:#fff;
+    background-color: #5cb85c;
+    
+    /*resize container of icon*/
+    width: 80px;
+    height: 80px;
+    
+    /*make the container round*/
+    border-radius: 50%;
 }
 
+.aboutus span{
+    width: 200px;
+    display: inline-block;
+}
