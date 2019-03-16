@@ -1,88 +1,200 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Boilerplate Snippet</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-   
-        <link rel="stylesheet" type ="text/css" href="style.css">
-        <!-- Google Fonts Link ---------------- -->
-        <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-        
-        <!-- Font Awesome Link ---------------- -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-   
-    </head>
-    <body>
-        <!-- nav bar ------------------------- -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">Bora Bora Bungalows</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+
+<head>
+  <title>Boilerplate Snippet</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- Google Fonts Link ---------------- -->
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+
+  <!-- Font Awesome Link ---------------- -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <!-- nav bar ------------------------- -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Bora Bora Bungalows</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-item nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link" href="#">About Us</a>
-              <a class="nav-item nav-link" href="#">Team</a>
-              <a class="nav-item nav-link" href="#" tabindex="-1" aria-disabled="true">Get Involved</a>
-            </div>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#">About Us</a>
+        <a class="nav-item nav-link" href="#">Team</a>
+        <a class="nav-item nav-link" href="#" tabindex="-1" aria-disabled="true">Get Involved</a>
+      </div>
+    </div>
+  </nav>
+  <!-- end nav bar --------------------- -->
+
+  <!-- begin Header section ------------ -->
+  <header class="d-flex align-items-center">
+    <div class="container">
+      <h1>Bora Bora Bungalows</h1>
+      <p>An experience you won't forget.</p>
+      <button class="btn btn-lg btn-primary">Get Involved</button>
+      <button class="btn btn-lg btn-success">View Details</button>
+    </div>
+  </header>
+  <!-- end Header section -------------- -->
+
+  <!-- begin About Us section ---------- -->
+  <section class="aboutus container">
+    <h2>About Us</h2>
+    <p>We believe in providing comfort for everyone.</p>
+    <hr>
+
+    <!-- beginning of grid section ---- -->
+    <!-- first row -------------------- -->
+    <div class="row">
+      <div class=col-md-6>
+        <i class="fas fa-seedling"></i>
+        <span><strong>Climate</strong></span>
+        <p>Enjoy long walks at the beach with the sun shining on you.</p>
+      </div>
+      <div class=col-md-6>
+        <i class="fas fa-seedling"></i>
+        <span><strong>Oceans</strong></span>
+        <p>Crystal clear water for you to swim in all day, everyday.</p>
+      </div>
+    </div>
+
+    <!-- second row ---------------- -->
+    <div class="row">
+      <div class=col-md-6>
+        <i class="fas fa-seedling"></i>
+        <span><strong>Prices</strong></span>
+        <p>Our travel agents will get you the best prices.</p>
+      </div>
+      <div class=col-md-6>
+        <i class="fas fa-seedling"></i>
+        <span><strong>Dedication</strong></span>
+        <p>We work hard to guarantee you the best possible stay.</p>
+      </div>
+    </div>
+  </section>
+  <!-- end About Us section --------- -->
+  <!-- begin Team section ----------- -->
+  <section>
+    <div class="team container">
+      <div class="row">
+        <!-- first panel ------------ -->
+        <div class="col-md-3">
+          <img src="Bitmoji" height="200" width="200">
+          <h2>Michelle Chan</h2>
+          <h3>CEO</h3>
+          <p>Being a high school dropout can't get any better, especially when you start your own successful Bungalow company.</p>
+        </div>
+        <!-- second panel ----------- -->
+        <div class="col-md-3">
+          <img src="Shawn Mendes" height="200" width="200">
+          <h2>Shawn Mendes</h2>
+          <h3>CFO</h3>
+          <p>Former singer, Shawn Mendes decided to pursue his career as a travel agent.</p>
+        </div>
+        <!-- third panel ------------ -->
+        <div class="col-md-3">
+          <img src="Grayson Dolan" height="200" width="200">
+          <h2>Grayson Dolan</h2>
+          <h3>CIO</h3>
+          <p>Former YouTube and Vine star, Grayson Dolan decided to reinvent his life and become a travel agent.</p>
+        </div>
+        <!-- fourth panel ----------- -->
+        <div class="col-md-3">
+          <img src="Ethan Dolan" height="200" width="200">
+          <h2>Ethan Dolan</h2>
+          <h3>CMO</h3>
+          <p>Former YouTube and Vine star, Ethan Dolan decided to try something new and work alongside his brother.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end Team section ------------- -->
+
+  <!-- begin Get Involved section --- -->
+  <section class="getinvolved">
+    <div class="container">
+      <h1>Get Involved</h1>
+      <div class="row">
+        <!-- first panel ------------ -->
+        <div class="col-md-4 col-lg-4">
+          <div class="options">
+            <i class="fas fa-umbrella-beach"></i>
+            <h2>Book a bungalow</h2>
+            <p>Book a bungalow today for the best possible price!</p>
+            <button class="btn button">Book Now</button>
           </div>
-        </nav>
-        <!-- end nav bar --------------------- -->
-        
-        <!-- begin Header section ------------ -->
-        <header class="d-flex align-items-center">
-          <div class="container">
-            <h1>Bora Bora Bungalows</h1>
-            <p>An experience you won't forget.</p>
-            <button class="btn btn-lg btn-primary">Get Involved</button>
-            <button class="btn btn-lg btn-success">View Details</button>
+        </div>
+        <!-- second panel ----------- -->
+        <div class="col-md-4 col-lg-4">
+          <div class="options">
+            <i class="fas fa-money-check-alt"></i>
+            <h2>Donate</h2>
+            <p>Would you like to donate money to make these bungalows even better?</p>
+            <button class="btn button">Donate</button>
           </div>
-        </header>
-        <!-- end Header section -------------- -->
-        
-        <!-- begin About Us section ---------- -->
-        <section class="aboutus container">
-          <h2>About Us</h2>
-          <p>We believe in providing comfort for everyone.</p>
-          <hr>
-          
-          <!-- beginning of grid section ---- -->
-          <!-- first row -------------------- -->
-          <div class="row">
-            <div class=col-md-6>
-              <i class="fas fa-seedling"></i>
-              <span><strong>Climate</strong></span>
-              <p>Enjoy long walks at the beach with the sun shining on you.</p>
-              </div>
-              <div class=col-md-6>
-                <i class="fas fa-seedling"></i>
-                 <span><strong>Oceans</strong></span>
-                 <p>Crystal clear water for you to swim in.</p>
-              </div>
-            </div>
-            
-            <!-- second row ---------------- -->
-            <div class="row">
-            <div class=col-md-6>
-              <i class="fas fa-seedling"></i>
-              <span><strong>Climate</strong></span>
-              <p>Enjoy long walks at the beach with the sun shining on you.</p>
-              </div>
-              <div class=col-md-6>
-                <i class="fas fa-seedling"></i>
-                 <span><strong>Oceans</strong></span>
-                 <p>Crystal clear water for you to swim in.</p>
-              </div>
-            </div>
-                 
-          <h3>Our Work</h3>
-        </section>
-        <!-- end About Us section --------- -->
-        
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    </body>
-    
+        </div>
+        <!-- third panel ------------ -->
+        <div class="col-md-4 col-lg-4">
+          <div class="options">
+            <i class="fas fa-globe-americas"></i>
+            <h2>Excursions</h2>
+            <p>Check out the many activities you can do while you're here!</p>
+            <button class="btn button">Explore</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end Get Involved section ----- -->
+  <!-- begin Contact section -------- -->
+  <section class="contact container">
+    <h1>Contact</h1>
+    <div class="row">
+      <div class="col-md-6">
+        <!-- input one -------------- -->
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <i class="fas fa-user-alt"></i></span>
+          </div>
+          <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        <!-- input two -------------- -->
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <i class="fas fa-envelope"></i></span>
+          </div>
+          <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+        <!-- input three ------------ -->
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <i class="fas fa-phone"></i></span>
+          </div>
+          <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+      </div>
+      <!-- right side of Contact section -->
+      <div class="col-md-6">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text">With textarea</span>
+          </div>
+          <textarea class="form-control" aria-label="With textarea"></textarea>
+        </div>
+         <button class="btn btn-lg btn-info">Submit</button>
+      </div>
+    </div>
+  </section>
+  <!-- end Contact section ---------- -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
 </html>

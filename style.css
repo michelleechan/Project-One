@@ -21,6 +21,7 @@ header{
 }
 .aboutus {
     text-align: center;
+    padding: 20px;
     
 }
 
@@ -44,3 +45,61 @@ header{
     width: 200px;
     display: inline-block;
 }
+
+    /*Team*/
+    .team{
+        margin-top: 80px;
+        margin-bottom: 80px;
+        text-align: center;
+    }
+    .team img{
+        width: 250px;
+        height: 250px;
+        /*Object fir will crop and center image based on width and height*/
+        object-fit: cover;
+        border-radius: 50px;
+        margin-bottom: 50px;
+    }
+    .options i{
+        font-size: 60px;
+        padding: 25px 20px;
+    }
+    .container {
+        text-align: center;
+        width: 100%;
+    }
+    .getinvolved{
+        background-color: lightblue;
+        padding: 50px 0 80px;
+        margin-top: 50px;
+    }
+    .options{
+        background-color: #fff;
+        padding: 30px;
+        margin: 10px;
+        border: 1px;
+        border-radius: 50px;
+        margin-bottom: 50px;
+    }
+    .getinvolved button{
+        background-color: lightblue;
+        border-color: lightblue;
+        color: #fff;
+    }
+ .contact .btn {
+     border-radius: 0;
+     width: 100%;
+     font-size: 15px;
+     background-color: lightblue;
+     color: #fff;
+     padding-top: 10px;
+     border-color: lightblue;
+ }
+ .contact i {
+     font-size: 30px;
+     padding: 25px 20px;
+ }
+ .contact .btn:hover {
+     font-weight: bolder;
+     background-color: #81DAF5;
+ }
